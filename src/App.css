@@ -1,0 +1,269 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  background-color: hsl(206, 94%, 87%);
+  margin: 0px;
+  justify-content: center;
+}
+.container{
+  background-color:  hsl(0, 0%, 100%);
+  width: 55%;
+  height: 71vh;
+  margin: 80px auto;
+  justify-content: center;
+  border-radius: 10px;
+}
+.con{
+  position: absolute;
+  margin-top: 35px;
+  z-index: 1;
+  margin-left: 70px;
+  width: 13%;
+  height: 30vh;
+  /* background-color: blanchedalmond; */
+  display: inline-block;
+}
+.img{
+  display: none;
+}
+.smallcon{
+  width: 90%;
+  height: 10%;
+  margin-bottom: 30px;
+}
+.cir {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px hsl(231, 11%, 63%) solid;
+  font-size: smaller;
+}
+.your{
+  font-size: small;
+  color: hsl(231, 11%, 63%);
+}
+.info{
+  color: white;
+  font-size:smaller;
+}
+.one{
+  text-align: center;
+  padding-top: 7px;
+}
+.step{
+ margin-left: 45px;
+ margin-top: -30px;
+}
+.steps{
+  width: 30%;
+  height: 93%;
+  /* margin-left: -50px; */
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: -30px;
+  border-radius: 10px;
+}
+.small-container{
+  float: right;
+  margin-right: 20px;
+  width: 55%;
+  height: 90%;
+  margin: 25px 20px;
+  
+}
+.personal{
+  margin-left: 10px;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 20px;
+  color:  hsl(213, 96%, 18%);
+
+}
+/* small{
+  margin-left: 10px;
+ color: hsl(231, 11%, 63%);
+  font-weight: lighter;
+} */
+.subT{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 130%;
+  height: 6vh;
+  color: hsl(231, 11%, 63%);
+  text-align: left;
+  font-weight: lighter;
+  font-size: small;
+  margin-bottom: -30px;
+}
+.bod{
+  width: 90%;
+  height: 60%;
+  margin-top: -10px;
+  /* background-color: blueviolet; */
+}
+form{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+label{
+  color: hsl(213, 96%, 18%);
+  font-size: small;
+}
+
+input{
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 100%;
+  height: 4.5vh;
+  border-radius: 5px;
+  border: 1px hsl(231, 11%, 63%) solid;
+  outline: none;
+}
+
+.next{
+  margin-top: 25px;
+  float: right;
+  margin-right: 35px;
+  width: 23%;
+  height: 6vh;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color:  hsl(213, 96%, 18%);
+  color: white;
+  cursor: pointer;
+}
+.btn-hide{
+  display: none;
+}
+.back{
+  margin-top: 25px;
+  width: 23%;
+  height: 6vh;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: hsl(213, 96%, 18%);
+  cursor: pointer;
+}
+.back:active{
+  font-weight: bolder;
+}
+.svg{
+  width: 304px;
+  height: 437px;
+}
+
+
+@media screen and (max-width: 500px){
+  .svg{display: none;}
+
+  .con{
+   display: flex;
+   margin-left: 200px;
+   margin-top: -80px;
+   justify-content: space-around;
+  
+  }
+  .step {
+    display: none;
+  }
+  .cir{ 
+    display: flex;
+    margin-inline-end: 10px;
+    text-align: center;
+  }
+  .one{
+    margin-left: 12px;
+  }
+  .img{
+    display: inline-block;
+    position: relative;
+    width: 550px;
+    height: 30vh;
+    margin-top: -140px;
+    margin-left: -55px;
+    z-index: -1;
+  }
+  .container{
+    width: 80%;
+    height: 60vh;
+    margin-top: 90px;
+    position: relative;
+  }
+  .personal{
+    margin-left: -120px;
+    font-size: x-large;
+    margin-top: 0px; 
+  }
+  .subT{
+    margin-top: 15px;
+    margin-left: -120px;
+    width: 130%;
+    height: 6vh;
+    color: hsl(231, 11%, 63%);
+    text-align: left;
+    font-weight: lighter;
+    font-size: medium;
+  }
+  form{
+    margin-top: 50px;
+    margin-left: -120px;
+  }
+  
+  .next{
+      margin-top: 155px;
+      margin-right: -20px;
+      width: 55%;
+  }
+  .back{
+    margin-top: 155px;
+    width: 55%;
+    margin-left: -145px;
+  }
+}
+@media screen and (max-width: 450px){
+  .con{
+    margin-left: 200px;  
+   }
+   .container{
+    width: 90%;
+  }
+  
+}
+@media screen and (max-width: 400px){
+  .con{
+    margin-left: 180px;  
+   }
+  .personal{
+    margin-left: -100px;
+  }
+  .back{
+    margin-left: -135px;
+  }
+  .subT{
+    margin-left: -100px;
+    width: 160%;
+  }
+  form{
+    margin-top: 50px;
+    margin-left: -100px;
+  }
+}
+@media screen and (max-width: 350px){
+  .con{
+    margin-left: 160px;  
+
+   }
+   .back{
+    margin-left: -115px;
+  }
+   .subT{
+    margin-left: -100px;
+    width: 150%;
+  }
+  
+}
+  

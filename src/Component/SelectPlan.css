@@ -1,0 +1,199 @@
+.arcade, .advance, .pro{
+    width: 30%;
+    height: 20vh;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid  hsl(231, 11%, 63%);
+    cursor: pointer;
+}
+.arcade:hover, .advance:hover, .pro:hover{
+  border: 1px solid  hsl(213, 96%, 18%);
+  
+}
+.arcade:active, .advance:active, .pro:active{
+  background-color:   hsl(231, 13%, 78%);
+  
+}
+.selected{
+  background-color:  hsl(231, 13%, 78%) ;
+}
+.cont{
+    width: 100%;
+  height: 60%;
+  margin-top: 30px;
+}
+.svgg{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.smArc{
+  margin-top: 30px;
+  color:hsl(213, 96%, 18%);
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: small;
+}
+.amount{
+  margin-top: -40px;
+  margin-left: 10px;
+  font-weight: lighter;
+  font-size: small;
+  color:  hsl(231, 11%, 63%);
+}
+.two{
+  margin-top: 3px;
+ position: absolute;
+ font-size: small;
+ color:  hsl(213, 96%, 18%);
+ margin-left: 10px;
+
+}
+.togglee{
+  width: 97%;
+  height: 5vh;
+  background-color:  hsl(229, 24%, 87%);
+  margin-top: 25px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.month{
+  position: absolute;
+  margin-left: 80px;
+ margin-bottom: -15px;
+ padding-top: 7px;
+ cursor: pointer;
+ color:hsl(231, 11%, 63%);
+}
+.month2{
+  position: absolute;
+  font-weight: bolder;
+  margin-left: 80px;
+ margin-bottom: -15px;
+ padding-top: 7px;
+ cursor: pointer;
+ color:hsl(231, 90%, 28%);
+}
+.year{
+  position: absolute;
+  padding-top: 7px;
+  margin-left: 230px;
+  cursor: pointer;
+}
+.year2{
+  position: absolute;
+  padding-top: 7px;
+  margin-left: 230px;
+  cursor: pointer;
+  color:hsl(231, 90%, 28%);
+  font-weight: bolder;
+}
+#check{
+  position: absolute;
+  margin-left:170px;
+  margin-top: 5px;  
+  color :hsl(231, 11%, 63%)
+}
+.toggle{
+position: absolute;
+width: 40px;
+height: 3vh;
+background-color:  hsl(213, 96%, 18%);
+border-radius: 20px;
+margin-left: -10px;
+
+}
+
+.toggle-con::before{
+  position: absolute;
+  width: 16px;
+  height: 2.5vh;
+  border-radius: 50%;
+  content: "";
+  background-color: white;
+  margin-top: 2px;
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+.toggle-con2::before{
+  position: absolute;
+  width: 16px;
+  height: 2.5vh;
+  border-radius: 50%;
+  content: "";
+  background-color: white;
+  margin-top: 2px;
+  margin-left: 25px;
+  transition: 0.4s;
+  cursor: pointer;
+  /* transition: 2s; */
+}
+@media screen and (max-width: 500px){
+  .arcade, .advance, .pro{
+    width: 170%;
+    height: 10vh;  
+    margin-top: 10px;
+    margin-left: -120px;
+    border-radius: 10px;
+    
+}
+.smArc{
+  margin-top: -40px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: medium;
+}
+.amount{
+  margin-top: -40px;
+  margin-left: 50px;
+  font-weight: lighter;
+  font-size: small;
+  color:  hsl(231, 11%, 63%);
+}
+.two{
+ margin-left: 50px;
+
+}
+.togglee{
+  width: 170%;
+  height: 5vh;
+  background-color:  hsl(229, 24%, 87%);
+  margin-top: 55px;
+  margin-bottom: 5px;
+  margin-left: -120px;
+  border-radius: 5px;
+}
+.cont{
+margin-top: 30px;
+}
+.cont{
+  width: 100%;
+height: 60%;
+margin-top: 50px;
+}
+}
+@media screen and (max-width: 400px){
+  .arcade, .advance, .pro{
+    width: 160%;
+    margin-left: -100px;  
+}
+
+}
+@media screen and (max-width: 350px){
+  .arcade, .advance, .pro{
+    width: 180%;
+    margin-left: -100px; 
+  } 
+    .togglee{
+      width: 200%;
+      height: 5vh;
+      background-color:  hsl(229, 24%, 87%);
+      margin-top: 55px;
+      margin-bottom: 5px;
+      margin-left: -110px;
+      border-radius: 5px;
+    }
+}

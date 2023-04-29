@@ -1,0 +1,123 @@
+.con-fin{
+    width: 95%;
+    height: 21vh;
+    background-color:hsl(231, 100%, 99%);
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.arcade-yearly{
+    font-size: small;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.arc{
+    color: hsl(213, 96%, 18%);
+    font-weight: bolder
+}
+.amt{
+    float: right;
+    margin-top: -40px;
+    font-size: small;
+    margin-right: 20px;
+    color: hsl(213, 96%, 18%);
+    font-weight: bolder;
+}
+.changee{
+    text-decoration: underline;
+    font-size: smaller;
+    margin-top: 5px;
+    color:hsl(231, 11%, 63%);
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    height: 0.001vh;
+    background-color: black;
+}
+.underhr{
+    margin-top: 60px;
+}
+.onlinee{
+    font-size: small;
+    margin-left: 10px;
+    margin-top: -45px;
+    color:hsl(231, 11%, 63%);
+}
+.large{
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 10px;
+    color:hsl(231, 11%, 63%);
+}
+.amt2{
+    float: right;
+    font-size: small;
+    margin-top: -40px;
+    margin-right: 20px;
+    color: hsl(213, 96%, 18%);
+}
+.amt3{
+    float: right;
+    font-size: small;
+    margin-top: -10px;
+    margin-right: 20px;
+    color: hsl(213, 96%, 18%);
+}
+.tot{
+    font-size: small;
+    margin-left: 20px;
+    margin-top: 20px;
+    color:hsl(231, 11%, 63%);
+}
+.amt4{
+    float: right;
+    font-size:medium;
+    font-weight: bolder;
+    margin-top: -15px;
+    margin-right: 25px;
+    color: hsl(213, 96%, 18%);
+}
+
+@media screen and (max-width:500px) {
+    .con-fin{
+        width: 170%;
+        margin-left: -120px;
+        margin-top: 50px;
+        
+    }
+    .tot{
+        margin-left: -110px;
+        
+    }
+    .amt4{
+        margin-top: -15px;
+        margin-right: 10px;      
+    }
+    
+    .changee{
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:400px) {
+    .con-fin{
+        margin-left: -110px;
+        
+    }
+}
+@media screen and (max-width:350px) {
+    .con-fin{
+        margin-left: -100px;
+        width: 180%;
+        
+    }
+    .tot{
+        margin-left: -90px;
+        
+    }
+    .amt4{
+        margin-right: 5px;      
+    }
+}
